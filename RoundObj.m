@@ -22,4 +22,3 @@ for x = 1:numel(stat)
    text(stat(x).Centroid(1),stat(x).Centroid(2)+25,metric_string,'Color','m','FontSize',14,'FontWeight','bold');
 end
 disp(['Total number of round objects = ' num2str(n)]);
-
